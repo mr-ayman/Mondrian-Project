@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project</title>
+    <style>
+        body {
+            display: flex;
+            height: 150vh;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: grid;
+            height: 778px;
+            width: 778px;
+            background-color: black;
+            grid-template-columns: 320px 189px 189px 50px;
+            grid-template-rows: 414px 157px 157px 20px;
+            grid-gap: 10px;
+        }
+        
+        .grey {
+            background-color: #F0F1EC;
+        }
+        
+        .red {
+            background-color: #E72F24;
+        }
+        
+        .black {
+            background-color: #232629;
+        }
+        
+        .blue {
+            background-color: #004592;
+            width: 50px;
+        }
+        
+        .yellow {
+            background-color: #F9D01E;
+        }
+        
+        .grey1 {
+            display: grid;
+            grid-column: span 3;
+        }
+        
+        .grey4 {
+            width: 50px;
+            grid-row: span 2;
+        }
+        
+        .grey2 {
+            display: grid;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        
+        .grey3 {
+            display: grid;
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Write your HTML here -->
+        <div class="red"></div>
+        <div class="grey grey1"></div>
+        <div class="grey grey2"></div>
+        <div class="grey grey3"></div>
+        <div class="blue"></div>
+        <div class="grey grey4"></div>
+        <div class="grey grey5"></div>
+        <div class="yellow"></div>
+        <div class="black"></div>
+    </div>
+</body>
+
+</html>
